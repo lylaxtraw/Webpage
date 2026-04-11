@@ -1,6 +1,8 @@
 # Webpage
 My own personal webpage, where (most) of my info in stored and available for anyone to take a look at!!
 
+Also, I should clarify: All the info is in Spanish, so don't be alarmed if you can't understand it kewk
+
 ## What's all of this??
 It's where my professional portfolio will be stored, which also serves as a quick way to get to know me 
 
