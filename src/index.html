@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!--v1.0.0
+  Cambios para v1.0.1:
+  - Arreglas errores de gramática y espaciado
+  - Mejorar rendimiento 
+  - Mejorar código
+  Cambios para v1.1.0:
+  - Mensajes secretos en los códigos fuente
+  - Reorganización de páginas
+  - Reorganización de opiniones
+  - Mejora de fotos de Tartigus
+  - Arreglar cualquier error posible
+  Cambios para v2.0.0:
+  - Nuevas páginas (n<5)
+  - Secretos dentro de las páginas (i.e. botones secretos)
+  - Añadir página "bajo construcción" (usar como lugar de teasers)
+  - Crear un apartado único para los devlogs y notas de updates-->
+
+  <!--Versión 1.0.1 24/02/2026
+  Cambios realizados:
+  - Actualización de datos
+  - Eliminación de ciertas opiniones
+  - Eliminado archivos innecesarios
+  -->
+<head>
+  <title>Proyecto: MPPW</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="Global/Tartigus-icono.jpeg" />
+  <style>
+    body {
+      background-image: url(Global/background.jpeg);
+      background-size: 2000px; 
+      background-position: center; 
+      background-repeat: no-repeat;
+    }
+    h1 {
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+    .txt{
+      color: white;
+      text-align: center;
+    }
+    .gif {
+      position: absolute; 
+      top: 55%;
+      transform: translateY(-50%); 
+      max-width: 180px;
+      height: auto;
+    }
+    .gifleft {
+      left: 100px;
+      width: 100px;
+    }
+    .gifright {
+      right: 100px;
+      width: 100px;
+      transform: translateY(-50%) scaleX(-1); 
+    }
+    .imgright {
+      transform: scaleX(-1);
+    }
+    .content {
+      text-align: center; 
+    }
+    .contenedor-gifs {
+      display: flex;      
+      flex-wrap: wrap;      
+      justify-content: center;
+      gap: 15px;
+    }
+    .columna-fija {
+      position: fixed;
+      top: 50%;              
+      transform: translateY(-50%); 
+      display: flex;
+      flex-direction: column;  
+      gap: 20px;              
+      z-index: 1000;           
+    }
+    .izquierda {
+      left: 100px;           
+    }
+    .derecha {
+      right: 100px;           
+    }
+    .gif-flotante {
+      width: 250px;   
+      height: auto;
+      border-radius: 8px;     
+    }
+  </style>
+</head>
+
+<body>
+  <div class="columna-fija izquierda">
+    <img src="Index/catg.gif" class="gif-flotante">
+  </div>
+
+  <div class="columna-fija derecha">
+    <img src="Index/catg.gif" class="gif-flotante" style="transform: scaleX(-1);" >
+  </div>
+  
+  <h1>
+    ¡Bienvenid@ a mi página web! 
+  </h1>
+
+<p class="txt">
+    Sé que la página se ve bastante horrible, y no te preocupes! <br> 
+    Con el tiempo, la iré mejorando y agregaré más y más cosas <br>
+    hasta que logre crear mi portafolio profesional, pero por ahora <br>
+    Muchas gracias por pasarte por aquí!!
+</p>
+
+  <p>
+    <center>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+    <b><a href="Datos Generales/DatosGenerales.html" target=><button>¿Quién soy?</button></b></a></b>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright" /></center>
+  </p>
+
+  <p>
+    <center>
+      <img src="Index/tartigus-chibi-comiendo.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+      <b><a href="Mis Gustos/MisGustos.html" target=><button>Mis gustos</button></b></a></b>
+      <img src="Index/tartigus-chibi-comiendo.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright"/></center>
+  </p>
+
+  <p>
+    <center>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+    <b><a href="Ubicación/Ubicación.html" target=><button>¿Dónde vivo?</button></b></a></b>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright"/></center>
+  </p>
+  
+  <p>
+    <center>
+    <img src="Index/tartigus-cel.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+    <b><a href="Redes Sociales/RedesSociales.html" target=><button>Mis redes sociales</button></b></a></b>
+    <img src="Index/tartigus-cel.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright"/></center>
+
+  </p>
+
+  <p>
+    <center>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+    <b><a href="Más de Mí/MásdeMí.html" target=><button>Más de mi vida</button></b></a></b>
+    <img src="Index/tartigus-duda.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright"/></center>
+  </p>
+  
+  <p>
+    <center>
+    <img src="Index/tartigus-amigos.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-right: 8px;" />
+    <b><a href="Opiniones/Opiniones.html" target=><button>"¿Cómo describirías a Salva?"</button></b></a></b>
+    <img src="Index/tartigus-amigos.jpeg" alt="Descripción de la imagen" style="max-width: 90px; height: auto; vertical-align: middle; margin-left: 8px;" class="imgright"/></center>
+  </p>
+  
+</body>
+</html>

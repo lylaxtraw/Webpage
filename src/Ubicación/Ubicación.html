@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Proyecto: MPPW</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../Global/Tartigus-icono.jpeg" />
+  <style>
+    body {
+    background-image: url(../Global/background.jpeg);
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    }
+    h1 {
+      color: rgb(255, 255, 255);
+    text-align: center;
+    }
+    #ubicacionreal {
+      display: none;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  .boton-fantasma {
+    opacity: 0;
+    width: 100px;
+    height: 50px;
+  }
+  .boton-secreto {
+    background: none;
+    border: none;
+    padding: 0;
+    color: white;
+    font-size: larger;
+  }
+  </style>
+  <script>
+    function showLocation() {
+      document.getElementById("ubicacionreal").style.display = "block";
+    }
+  </script>
+</head>
+
+<body>
+
+  <h1>
+    <center><p><img src="cat6.jpeg"></p></center>
+    <p>¿Dónde vivo?
+        <br>
+        Joder, buena pregunta
+        <br>
+        Veamos...
+        <br>
+        Aquí vivo
+        <br>
+        <img src="tierra.jpeg"> 
+        <br>
+        (Por cuestiones de privacidad, esta información es privada)
+      </p>
+        <button class="boton-fantasma" onclick="showLocation()"></button>
+        <div id="ubicacionreal"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><button class="boton-secreto">???</button></a> </div>
+    <br>
+    <a href="../index.html" target=><button>Regresar</button></a></center>
+  </h1>
+</body>
+</html>
