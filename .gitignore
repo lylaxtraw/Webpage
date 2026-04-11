@@ -1,0 +1,10 @@
+# Archivos del sistema (basura de Mac y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+
+# Si en algún momento usas editores como VS Code
+.vscode/
