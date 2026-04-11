@@ -32,3 +32,7 @@ txt
 - Uploaded necessary files for Static HTML
 - Added changes to CHANGELOG.md
 ---
+--> 04/10/2026 23:55
+- Modified all html files, replacing "Proyecto: MPPW" with "Webpage"
+- Removed unused file at src/Opiniones
+- Added changes to CHANGELOG.md
