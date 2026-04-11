@@ -26,3 +26,9 @@ txt
 --> 04/10/2026 23:20
 - Modified CHANGELOG.md for better identification and logging
 - Added changes to CHANGELOG.md
+---
+--> 04/10/2026 23:25
+- Modified Github Pages to only show files inside src/
+- Uploaded necessary files for Static HTML
+- Added changes to CHANGELOG.md
+---
